@@ -7,13 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C0DF1627-1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{62095426-D032-4C72-A528-EC1921E7F0FD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastrucure", "Infrastrucure", "{3AC71C63-00C4-4F6E-9E00-7CA9C2A67778}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3AC71C63-00C4-4F6E-9E00-7CA9C2A67778}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{CC08395A-1038-43E1-8888-BA7253F1B99C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requiriments", "Requiriments", "{B719E23E-A062-4CB6-8DA8-CDEB7BB35B16}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Domain", "Core\MovieApi.Domain\MovieApi.Domain.csproj", "{F1950845-94B9-4FCD-B51C-76D54F3E6194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Persistence", "Infrastructure\MovieApi.Persistence\MovieApi.Persistence.csproj", "{BEE9EB54-B4BE-4E53-A398-BCF7A7AFF145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.WebApi", "Presentation\MovieApi.WebApi\MovieApi.WebApi.csproj", "{E3AE528F-FF32-423C-AB9F-EF1DAB96A90E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,11 +29,21 @@ Global
 		{F1950845-94B9-4FCD-B51C-76D54F3E6194}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1950845-94B9-4FCD-B51C-76D54F3E6194}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1950845-94B9-4FCD-B51C-76D54F3E6194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE9EB54-B4BE-4E53-A398-BCF7A7AFF145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE9EB54-B4BE-4E53-A398-BCF7A7AFF145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE9EB54-B4BE-4E53-A398-BCF7A7AFF145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE9EB54-B4BE-4E53-A398-BCF7A7AFF145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3AE528F-FF32-423C-AB9F-EF1DAB96A90E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3AE528F-FF32-423C-AB9F-EF1DAB96A90E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3AE528F-FF32-423C-AB9F-EF1DAB96A90E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3AE528F-FF32-423C-AB9F-EF1DAB96A90E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F1950845-94B9-4FCD-B51C-76D54F3E6194} = {C0DF1627-1F05-4FBF-9D0F-AE143BBC5724}
+		{BEE9EB54-B4BE-4E53-A398-BCF7A7AFF145} = {3AC71C63-00C4-4F6E-9E00-7CA9C2A67778}
+		{E3AE528F-FF32-423C-AB9F-EF1DAB96A90E} = {CC08395A-1038-43E1-8888-BA7253F1B99C}
 	EndGlobalSection
 EndGlobal
