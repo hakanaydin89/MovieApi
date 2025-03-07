@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C0DF1627-1F05-4FBF-9D0F-AE143BBC5724}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Persistence", "Infrastructure\MovieApi.Persistence\MovieApi.Persistence.csproj", "{BEE9EB54-B4BE-4E53-A398-BCF7A7AFF145}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.WebApi", "Presentation\MovieApi.WebApi\MovieApi.WebApi.csproj", "{E3AE528F-FF32-423C-AB9F-EF1DAB96A90E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Application", "Core\MovieApi.Application\MovieApi.Application.csproj", "{38EC5317-D9BB-40A5-9790-914991AD21E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{E3AE528F-FF32-423C-AB9F-EF1DAB96A90E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3AE528F-FF32-423C-AB9F-EF1DAB96A90E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3AE528F-FF32-423C-AB9F-EF1DAB96A90E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38EC5317-D9BB-40A5-9790-914991AD21E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EC5317-D9BB-40A5-9790-914991AD21E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EC5317-D9BB-40A5-9790-914991AD21E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EC5317-D9BB-40A5-9790-914991AD21E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,5 +51,6 @@ Global
 		{F1950845-94B9-4FCD-B51C-76D54F3E6194} = {C0DF1627-1F05-4FBF-9D0F-AE143BBC5724}
 		{BEE9EB54-B4BE-4E53-A398-BCF7A7AFF145} = {3AC71C63-00C4-4F6E-9E00-7CA9C2A67778}
 		{E3AE528F-FF32-423C-AB9F-EF1DAB96A90E} = {CC08395A-1038-43E1-8888-BA7253F1B99C}
+		{38EC5317-D9BB-40A5-9790-914991AD21E6} = {C0DF1627-1F05-4FBF-9D0F-AE143BBC5724}
 	EndGlobalSection
 EndGlobal
